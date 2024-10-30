@@ -1,0 +1,21 @@
+/* .Board {
+  margin: 0 auto;
+  border: 5px solid black; */
+/* background-color: beige; */
+/* } */
+
+/* Board.css */
+.Board {
+  display: inline-block; /* This allows the container to fit the table's size */
+  border: 2px solid black; /* Optional: Add a border around the board */
+}
+
+table {
+  border-collapse: collapse; /* Ensures that table borders collapse into a single border */
+}
+
+td {
+  width: 50px; /* Set the width of each cell */
+  height: 50px; /* Set the height of each cell */
+  border: 1px solid gray; /* Optional: Add borders to each cell */
+}
